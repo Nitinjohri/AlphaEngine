@@ -30,7 +30,7 @@ AlphaEngine/
 
 > **Note:** The `Dockerfile` currently expects the dependency and config files to be named `requirements.txt` and `config.yaml`. Ensure you match these names in your file directory before building.
 
-## ⚙️ Setup and Installation
+##  Setup and Installation
 
 1. Navigate to the `AlphaEngine` directory in your terminal.
 2. Ensure `data.csv`, `requirements.txt`, and `config.yaml` are present.
