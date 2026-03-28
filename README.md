@@ -4,19 +4,19 @@ AlphaEngine is a containerized data processing pipeline designed to read inputs,
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **Containerized Execution:** Fully encapsulated in Docker for consistent execution across environments.
 * **Configurable Data Pipeline:** Driven by YAML configuration for flexible metric tracking.
 * **Automated Output:** Generates structured `metrics.json` directly from input datasets.
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Ensure you have the following installed on your local machine:
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [Docker Compose](https://docs.docker.com/compose/install/)
 
-## 🛠️ Project Structure
+##  Project Structure
 
 ```text
 AlphaEngine/
@@ -40,7 +40,7 @@ AlphaEngine/
    docker compose up -d --build
    ```
 
-## 📊 Monitoring Logs
+##  Monitoring Logs
 
 To view the real-time execution logs of the container:
 
@@ -48,7 +48,7 @@ To view the real-time execution logs of the container:
 docker compose logs -f
 ```
 
-## 🛑 Stopping the Engine
+##  Stopping the Engine
 
 To shut down and remove the running containers, use:
 
