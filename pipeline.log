@@ -1,0 +1,8 @@
+2026-03-28T22:16:13 [INFO] === Job started ===
+2026-03-28T22:16:13 [INFO] Config loaded and validated — seed=42, window=5, version=v1
+2026-03-28T22:16:13 [INFO] Random seed set: 42
+2026-03-28T22:16:13 [INFO] Dataset loaded — 10000 rows, columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-03-28T22:16:13 [INFO] Rolling mean computed (window=5) — 4 rows have NaN (warm-up period, excluded from signal).
+2026-03-28T22:16:13 [INFO] Signal generated — 9996 valid rows, 4989 with signal=1, 5007 with signal=0.
+2026-03-28T22:16:13 [INFO] Metrics written to metrics.json — rows_processed=9996, signal_rate=0.4991, latency_ms=25.54
+2026-03-28T22:16:13 [INFO] === Job finished: SUCCESS ===

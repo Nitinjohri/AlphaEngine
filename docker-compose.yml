@@ -1,0 +1,4 @@
+services:
+  alpha-engine:
+    build: .
+    container_name: alpha-engine
